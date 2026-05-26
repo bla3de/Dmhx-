@@ -28,7 +28,6 @@ local function s5()
     task.wait(1)
 end
 
--- ==================== AUTO REPEATING DISCORD (Fast & Persistent while in game) ====================
 local function s6()
     task.spawn(function()
         while true do
